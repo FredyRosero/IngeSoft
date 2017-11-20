@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #5a5a5a;
+    height: 100%;
+}
+
+h1 {
+    margin: auto;
+}
+
+.section {
+    position: relative; 
+    padding: 50px 10%;
+    display: flex;
+}
+
+.col {
+    position: relative;
+    height: 100%;
+}
+
+.separator {
+    display: inline-block;
+    background-color: black;
+    height: 1px;
+    width: 100px;
+    position: relative;
+    opacity: 0.2;
+}
+.separator::after {
+    content: "";
+    display: block;
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/logo-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    background-color: white; 
+}
+
+button {
+    background: white;
+    border: 1px solid gray;
+    padding: 7px 10px;
+    border-radius: 8px;    
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 140px;
+    height: 48px;
+}
+
+#header {
+    padding: 10px;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul.topnav li, 
+ul.topnav .logo
+{float: left;}
+
+ul.topnav .logo {
+    margin: 0px 50px;
+}
+
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a.active {color: #ff6700;}
+
+ul.topnav li a.button {
+    color: white;
+    background-color: #0f0f56;
+    border-radius: 8px;
+    
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+#cover {
+    height: 80%;
+}
+
+#cover .bkg {
+    background-image: url(../img/cover.jpg);    
+    background-position-y: 60%; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: calc(100% - 70px);    
+}
+
+#cover .label {
+    background: #ff6700;
+    position: relative;
+    top: -150px;
+    height: 150px;
+    width: 190px;
+    left: 150px;
+    padding: 15px;
+    color: white;
+}
+
+#cover .label p {
+    top: calc(50% - 40px);
+    position: absolute;
+    height: 90pX;
+}
+
+#cover .label b {
+    font-size: 1.2em;
+}
+
+#cover .label a {
+    font-size: 0.8em;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#about {
+    height: 330px;
+}
+
+#about .col {
+    width: 50%;
+}
+
+#about img {
+    left: 25%;
+    position: absolute;
+}
+
+
+
+ul.list-menu {
+    list-style-type: none;
+    background-color: white;
+}
+
+ul.list-menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+ul.list-menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+ul.list-menu a {
+    display: inline-block;
+    margin: 20px;
+    transition: width .5s, height .5s, margin .5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;
+    color: white;    
+}
+
+ul.list-menu a:hover {
+    margin: 10px;
+}
+
+#services {
+    text-align: center;
+}
+
+#services ul.list-menu li {
+    width: 33%;
+}
+
+#services ul.list-menu li a {
+    height: 200px;
+    width: 280px;
+}
+
+#services ul.list-menu li a:hover {
+    height: 220px;
+    width: 300px;
+}
+
+li a.safety {
+    background-image: url(../img/safety.png);   
+    
+}
+
+li a.charters {
+    background-image: url(../img/charters.png);      
+}
+
+li a.about {
+    background-image: url(../img/about.png);      
+}
+
+#trips {
+    text-align: center;
+}
+
+#trips ul.list-menu li {
+    width: 24%;
+}
+
+#trips ul.list-menu li a {
+    height: 200px;
+    width: 200px;
+}
+
+#trips ul.list-menu li a:hover {
+    height: 220px;
+    width: 220px;
+}
+
+li a.weddings {
+    background-image: url(../img/Weddings.png);   
+    
+}
+
+li a.schools {
+    background-image: url(../img/SCHOOL-GROUPS.png);      
+}
+
+li a.sports {
+    background-image: url(../img/Athletic-Sports-Team.png);      
+}
+
+
+li a.casinos {
+    background-image: url(../img/casino-section.png);      
+}
+
+#footer 
+{
+    background-color: #1a1a1a;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
