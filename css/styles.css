@@ -262,6 +262,19 @@ li a.casinos {
     background-image: url(../img/casino-section.png);      
 }
 
+#partners {
+    background-color: #f6f4f4;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+}
+
+#partners .col {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+
 #footer 
 {
     background-color: #1a1a1a;
