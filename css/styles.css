@@ -274,6 +274,25 @@ li a.casinos {
     padding: 0px 10px;
 }
 
+#mapSite {
+    height: 180px;
+    justify-content: space-around;
+}
+
+#mapSite .col.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+
+#mapSite ul {
+    
+}
+
+#mapSite ul li {
+    list-style-image: inherit;
+    font-size: 0.6em;
+}
 
 #footer 
 {
