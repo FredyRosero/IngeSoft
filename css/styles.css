@@ -56,6 +56,12 @@ button {
     border-radius: 8px;    
 }
 
+button.orange {
+    background-color: #ff6700;
+    color: white;
+}
+
+
 .logo {
     background-image: url(../img/logo.png);
     background-position: center;
@@ -260,6 +266,26 @@ li a.sports {
 
 li a.casinos {
     background-image: url(../img/casino-section.png);      
+}
+
+#contact {
+    color: white;
+    height: 180px;
+    position: relative; 
+    display: flex;    
+}
+
+#contact {
+
+}
+
+#contact .col.c1 {
+    width: 70%;
+}
+
+#contact .col.c2 {
+    width: 30%;
+    background-color: #0f0f56;
 }
 
 #partners {
